@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(232,243,255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-family: "alethiapro"; 
+}
+
+header {
+    padding: 45px;
+    background-color: rgba(30,30,40);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-style: oblique;
+    color: rgba(75,214,226);
+    transition: rgba(255,180,85);
+}
+
+header a:hover {
+    color: rgba(160,255,250);
+}
+
+main {
+    margin: 0px auto;
+    width: 1000px;
+    flex-grow: 1;
+}
+
+h1 {
+    color: rgba(0,70,60);
+}
+
+img {
+    border: 2px solid rgba(30,30,40);
+}
+
+h2 {
+    color: rgba(0,70,60);
+    margin-top: 100px;
+}
+
+.main__text {
+    color: rgba(52,52,69);
+}
+
+ul {
+    line-height: 3;
+}
+
+li {
+    color: rgba(52,52,69);
+}
+
+footer {
+    background-color: rgba(30,30,40);
+    color: rgba(205,213,255);
+    display: grid;
+    margin-top: 100px;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    padding: 25px 0px;
+    width: 1000px;
+}
+
+footer h2 {
+    margin: 0px 0px;
+    color: rgba(205,213,255);
+} 
+
+.contact_number {
+    display:flex;
+    align-items: center;
+}
+
+.contact_e-male {
+    display:flex;
+    align-items: center;
+}
+
+.contact_vk {
+    display:flex;
+    align-items: center;
+    
+}
+
+footer a {
+    color: rgba(160,175,255);
+}
+
+footer a:hover {
+    color: rgba(199,208,255);
+}
+
+h1, h2 {
+    font-family: "Vollkorn"; 
+}
+
+svg {
+    width: 24px;
+}

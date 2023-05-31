@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Alethiapro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Alethia"),
+             url("alethiapro-regular.woff2") format("woff2"),
+             url("alethiapro-regular.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "Vollkorn";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Vollkorn"),
+             url("Vollkorn-Regular.woff2") format("woff2"),
+             url("Vollkorn-Regular.woff") format("woff");
+  }
